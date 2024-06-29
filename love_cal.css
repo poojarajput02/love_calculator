@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+    font-family: poppins;
+    background-image: url(love3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    height: 80vh;
+    width: 60vw;
+    box-shadow: inset -8px -8px 12px rgb(185,103,117),
+                inset 8px 8px 12px rgb(201,95,114);
+                border-radius: 50px;
+    transition: 1s;
+     
+}
+.box:hover{
+    color: #ef34ef;
+    transition: 2s;
+    transition-duration: inherit;
+}
+.container:hover{
+    color: #1a191a;
+    transition: 1s;
+}
+.content{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.content img{
+    width: 80px;
+    margin-left: 170px;
+}
+.content h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-family: poppins;
+}
+.inputarea{
+    display: flex;
+}
+.inputarea input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+    outline: none;
+    border: 2px solid #f9f5f6;
+    box-shadow:  -8px -8px 12px rgb(246, 148, 170);
+    padding: 20px 40px;
+    font-size: 20px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #d7385c;
+    box-shadow:  8px 8px 12px rgb(241, 235, 236);
+    padding: 20px;
+    margin: 10px 6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+#print{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #d7385c;
+    box-shadow:  8px 8px 12px rgb(241, 235, 236);
+    padding: 25px ;
+    margin: 10px 6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+#statement{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
